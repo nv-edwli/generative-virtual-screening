@@ -8,7 +8,7 @@ will probably then want to take a look the example notebook in the `src` directo
 
 You will need to install:
 * [Docker](https://docs.docker.com/engine/install/)
-* [Docker Compose](https://docs.docker.com/compose/).
+* [Docker Compose](https://docs.docker.com/compose/)
 * [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
 
 ### Get Your API Key 
@@ -21,6 +21,15 @@ Set an environment variable named `NGC_CLI_API_KEY` to your API Key.
 
 ```bash
 export NGC_CLI_API_KEY=$(cat ~/API_KEY)
+```
+
+### Login to nvcr.io
+To pull the containers used in the docker compose configuration, you will need to login to `nvcr.io` with your NGC API Key.
+
+```bash
+$ docker login nvcr.io
+Username: $oauthtoken
+Password: <PASTE_API_KEY_HERE>
 ```
 
 ### Create Cache Directories
