@@ -1,4 +1,4 @@
-<h2><img align="center" src="https://github.com/NVIDIA-BioNeMo-blueprints/generative-virtual-screening/blob/main/nvidia-logo.png?raw=true">NVIDIA BioNeMo Blueprints: Generative Virtual Screening for Drug Discovery</h2>
+<h2><img align="center" src="https://github.com/NVIDIA-BioNeMo-blueprints/generative-virtual-screening/blob/main/nvidia-logo.png?raw=true">NVIDIA BioNeMo Blueprint: Generative Virtual Screening for Drug Discovery</h2>
 
 ![Generative Virtual Screening for Drug Discovery-r2 (1)](https://github.com/user-attachments/assets/dbb1795a-7e3f-4363-9b20-4bc4d67d04bb)
 
