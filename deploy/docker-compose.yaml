@@ -1,3 +1,5 @@
+version: '3'
+
 services:
   alphafold:
     image: nvcr.io/nim/deepmind/alphafold2:2.0.0
