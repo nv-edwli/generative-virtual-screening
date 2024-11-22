@@ -24,7 +24,6 @@ services:
 
     environment:
       - NGC_CLI_API_KEY=${NGC_CLI_API_KEY:?Error NGC_CLI_API_KEY not set}
-      - NGC_API_KEY=${NGC_CLI_API_KEY:?Error NGC_CLI_API_KEY not set}
       - NVIDIA_VISIBLE_DEVICES=${DIFFDOCK_VISIBLE_DEVICES:-0}
       - NVWB_TRIM_PREFIX=true
 
