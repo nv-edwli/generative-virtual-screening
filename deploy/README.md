@@ -4,11 +4,20 @@ In this directory you will find a Docker Compose yaml file that will start up
 the NIMs for AlphaFold-2, MolMIM, and DiffDock. Once the NIMs are started, you
 will probably then want to take a look the example notebook in the `src` directory.
 
+#### NVIDIA AI Workbench
+
+For developers using [NVIDIA AI Workbench](https://www.nvidia.com/en-us/deep-learning-ai/solutions/data-science/workbench/) to run this blueprint, 
+
+1. Deploy the NIMs by selecting **Start** under ``Environment`` > ``Compose``.
+2. Select **Open Jupyterlab** on the top right and get started with the [notebook](../src/generative-virtual-screening.ipynb).
+
+Full quickstart instructions can be found [here](https://github.com/NVIDIA-AI-Blueprints/generative-virtual-screening/blob/main/README.md#quick-start-with-nvidia-ai-workbench). For all other users, continue below.
+
 ### Prerequisites
 
 You will need to install:
 * [Docker](https://docs.docker.com/engine/install/)
-* [Docker Compose](https://docs.docker.com/compose/)
+* [Docker Compose](https://docs.docker.com/compose/).
 * [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
 
 ### Get Your API Key 
@@ -21,15 +30,6 @@ Set an environment variable named `NGC_CLI_API_KEY` to your API Key.
 
 ```bash
 export NGC_CLI_API_KEY=$(cat ~/API_KEY)
-```
-
-### Login to nvcr.io
-To pull the containers used in the docker compose configuration, you will need to login to `nvcr.io` with your NGC API Key.
-
-```bash
-$ docker login nvcr.io
-Username: $oauthtoken
-Password: <PASTE_API_KEY_HERE>
 ```
 
 ### Create Cache Directories
