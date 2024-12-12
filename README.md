@@ -4,7 +4,7 @@
 
 ![Generative Virtual Screening for Drug Discovery-r2 (1)](https://github.com/user-attachments/assets/dbb1795a-7e3f-4363-9b20-4bc4d67d04bb)
 
-The NVIDIA NIM Agent Blueprints for generative virtual screening shows how generative AI and accelerated NIM microservices can be used to design optimized small molecules smarter and faster.
+The NVIDIA BioNeMo Blueprint for generative virtual screening shows how generative AI and accelerated NIM microservices can be used to design optimized small molecules smarter and faster.
 
 <hr>
 
@@ -21,7 +21,7 @@ jupyter notebook
 
 [NVIDIA AI Workbench](https://www.nvidia.com/en-us/deep-learning-ai/solutions/data-science/workbench/) is a development environment manager that enables data scientists and developers to create, customize, collaborate, and migrate AI workloads and applications seamlessly across GPU systems, from laptops to cloud.
 
-If you do not NVIDIA AI Workbench installed, first complete the installation for AI Workbench [here](https://docs.nvidia.com/ai-workbench/user-guide/latest/installation/overview.html). 
+If you do not have NVIDIA AI Workbench installed, first complete the installation for AI Workbench [here](https://docs.nvidia.com/ai-workbench/user-guide/latest/installation/overview.html). 
 
 1. Fork this Project to your own GitHub namespace and copy the link
 
